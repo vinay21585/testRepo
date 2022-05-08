@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.sample.practice_automation.tests.AutomationScripts">
+        <methods>
+          <include name="validateCheckboxStatus"/>
+          <include name="setupBrowserDriverPath"/>
+          <include name="teardown"/>
+          <include name="validateFormAuthenticationForInvalidUNandPWD"/>
+          <include name="validateFileUpload"/>
+          <include name="validateBasicAuthByProvidingCorrectUNandPWD"/>
+          <include name="validateFormAuthenticationForValidUNandPWD"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.test.sample.practice_automation.tests.AutomationScripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
